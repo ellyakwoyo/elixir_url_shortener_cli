@@ -8,7 +8,7 @@ defmodule ElixirUrlShortenerCli.MixProject do
       elixir: "~> 1.18",
       start_permanent: Mix.env() == :prod,
       deps: [],
-      escript: [main_module: UrlShortenerCli]
+      escript: [main_module: ElixirUrlShortenerCli]
     ]
 
   end
